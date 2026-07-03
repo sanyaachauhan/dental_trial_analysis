@@ -1,0 +1,97 @@
+---
+title: "Dental Technology Trends in Clinical Trials"
+author: "Sanya Chauhan"
+date: "2026"
+output: html_document
+---
+<style>
+body {
+  max-width: 900px;
+  margin: auto;
+}
+</style>
+
+## Overview
+
+This analysis examines which emerging dental technologies are being
+tested in registered clinical trials and how research activity has
+changed over time. Data was retrieved from ClinicalTrials.gov — the U.S.
+federal registry of clinical studies worldwide.
+
+Total trials analyzed: 4,422 dental trials (2000-2024)
+
+Technologies examined: Dental Implants, Lasers, AI-assisted diagnosis,
+CAD/CAM digital workflows, Teledentistry, and Robotics
+
+------------------------------------------------------------------------
+
+## Methods
+
+All dental-related trials were downloaded from ClinicalTrials.gov and
+imported into R. Trials were classified into technology categories using
+keyword detection across trial titles and summaries. Analysis was
+conducted using R with tidyverse packages.
+
+------------------------------------------------------------------------
+
+## Key Findings
+
+### 1. Trial Counts by Technology Category
+
+![](output/category_totals.png)
+
+Dental implant research dominates the field with 1,285 registered trials
+— more than all other technology categories combined. CAD/CAM digital
+workflows rank second with 193 trials, reflecting the rapid adoption of
+digital dentistry in clinical practice over the past decade.
+
+### 2. Technology Trends Over Time
+
+![](output/trend_chart.png)
+
+Implant trial registration shows consistent growth from 2000 onwards,
+reflecting sustained commercial and regulatory interest. Laser therapy
+maintains steady research activity. Emerging technologies including AI,
+CAD/CAM, and teledentistry remain small in absolute numbers but show
+recent growth.
+
+### 3. The AI Story
+
+![](output/ai_trend.png)
+
+AI-related dental trials show near-zero registration before 2018,
+followed by rapid growth concentrated in 2021-2024. This pattern
+reflects the broader adoption of machine learning in medical imaging,
+with dental radiograph interpretation emerging as the primary clinical
+application.
+
+### 4. Who Funds Dental Research?
+
+![](output/funder_chart.png)
+
+Unlike pharmaceutical research where industry funding dominates, dental
+technology research is primarily academically funded. This has
+implications for evidence quality and publication bias — academic trials
+are generally considered more independent but may have fewer resources
+for large-scale multi-site studies.
+
+---
+
+## Clinical Interpretation
+
+Dental implants emerge as the most extensively researched technology in this dataset, with 1,285 registered clinical trials — nearly 25% of all dental trials analyzed. This substantial volume reflects both the growing prevalence of edentulous patients and the strong commercial incentive driving implant manufacturers to generate regulatory-grade evidence. The evidence strongly suggests that implant dentistry will continue to play a pivotal role in future dental practice due to its proven performance, functionality, and high patient acceptance.
+
+In contrast, teledentistry is represented by only 10 clinical trials, exemplifying a significant gap in high quality clinical evidence. Although teledentistry has gained acceptance as a practical method for patient consultation, follow up, and improving access to dental services, the limited number of clinical studies may be attributed to insufficient documented outcomes and the current lack of evidence validating its diagnostic accuracy and effectiveness.
+
+The findings also reveal considerable research activity related to CAD/CAM, indicating its widespread integration into routine dental practice. The popularity of CAD/CAM reflects the digital transformation of dentistry, with computer assisted design and manufacturing becoming standard tools for improving precision, efficiency, and treatment outcomes — well before the emergence of artificial intelligence in clinical settings.
+
+Artificial intelligence showed insignificant clinical application before 2020. However, a marked increase in research activity has been observed in recent years, with 79 clinical trials, the majority initiated after 2020. This trend suggests that AI is rapidly emerging as one of the most promising innovations in dentistry, with potential applications in diagnosis, treatment planning, image analysis, and clinical decision support.
+
+Finally, the data demonstrate that the majority of these clinical trials were conducted within academic institutions, with relatively limited industry funding. This pattern highlights the strong commitment of academic researchers to advancing evidence-based dental practice. However, comparatively low industry involvement may limit the pace of large-scale validation and clinical implementation. Greater collaboration between academic institutions and industry partners could accelerate the translation of emerging dental technologies into routine patient care.
+
+## Reproducibility
+
+All data, code, and outputs are publicly available at: [GitHub link —
+add after publishing]
+
+Analysis conducted in R using tidyverse, janitor, and lubridate.

@@ -1,0 +1,27 @@
+{
+    "id": "0DE4BE55",
+    "path": "~/Desktop/dental data r/dental_trial_analysis/scripts/02_classify.R",
+    "project_path": "scripts/02_classify.R",
+    "type": "r_source",
+    "hash": "1232549481",
+    "contents": "",
+    "dirty": false,
+    "created": 1782982075909.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "69,0",
+        "scrollLine": "48"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1782983134,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1782983134813,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,27 @@
+{
+    "id": "1C054B59",
+    "path": "~/Desktop/dental data r/dental_trial_analysis/scripts/01_import_and_clean.R",
+    "project_path": "scripts/01_import_and_clean.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1782913145157.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "54,3",
+        "scrollLine": "42"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1782982031,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1782982031263,
+    "read_only": false,
+    "read_only_alternatives": []
+}
